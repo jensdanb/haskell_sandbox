@@ -9,5 +9,5 @@ double int = int + int
 quadruple :: Int -> Int
 quadruple x = double( double x )
 
-halfDouble :: Float -> Float
+halfDouble :: Int -> Float
 halfDouble x = x * (sqrt 2)
