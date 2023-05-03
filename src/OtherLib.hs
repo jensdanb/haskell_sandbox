@@ -9,5 +9,5 @@ double int = int + int
 quadruple :: Int -> Int
 quadruple x = double( double x )
 
-halfDouble :: Int -> Float
-halfDouble x = x * (sqrt 2)
+geoMean :: Floating a => a -> a -> a
+geoMean x  y = x * (sqrt (y / x))
